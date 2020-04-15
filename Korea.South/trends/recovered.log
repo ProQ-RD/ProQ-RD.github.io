@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.31)  13 APR 2020 21:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.31)  14 APR 2020 20:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -842,13 +842,13 @@ LaTeX Info: Redefining \% on input line 6.
 Here is how much of TeX's memory you used:
  13721 strings out of 493029
  261567 string characters out of 6136233
- 321503 words of memory out of 5000000
+ 322811 words of memory out of 5000000
  16999 multiletter control sequences out of 15000+600000
  4239 words of font info for 16 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,7n,56p,417b,588s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on recovered.pdf (1 page, 15710 bytes).
+Output written on recovered.pdf (1 page, 15750 bytes).
 PDF statistics:
  15 PDF objects out of 1000 (max. 8388607)
  10 compressed objects within 1 object stream
