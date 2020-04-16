@@ -8,16 +8,106 @@ body {
 	margin:10px;
 	background-color:#ffffff;
 	}
-</style>
-</head>
+* {
+	font-family: Helvetica,Arial,sans-serif,verdana;
+    	}
+table.center {
+	margin-top:50px;
+	margin-left:auto; 
+	margin-right:auto;
+	}
+table.center, td {
+	padding: 10px;
+	text-align:right;
+}
+table.center, th {
+	padding: 10px;
+	text-align:center;
+}
+
+table.leyenda {
+	margin-top:30px;
+	margin-left:auto; 
+	margin-right:auto;
+	width:600px;
+	}
+table.leyenda, td {
+	padding: 10px;
+	text-align:left;
+}
+table.leyenda, th {
+	padding: 10px;
+	text-align:center;
+}
+</style></head>
+
 <body>
-<h1>Recuperados Costa-Rica</h1>
+<table style="border-collapse:collapse;" class=leyenda border=0> <tr> <td> <h1>Recuperados Costa-Rica</h1> </td> </tr> </table> 
  <table style="width:100%">
   <tr>
-    <th style="width:900px; height:600px; background-color:#9BDDFF;text-align:center; vertical-align:middle"><img src="Costa.Rica_recovered.svg" alt="Costa.Rica_recovered" style="max-height:100%; max-width:100%"></th>
+    <th style="width:600px; height:400px; background-color:#ffffff;text-align:center; vertical-align:middle"><img src="Costa.Rica_recovered.svg" alt="Costa.Rica_recovered" style="max-height:100%; max-width:100%"></th>
   </tr>
 </table> 
 
 
 
+
+
+
+<table style="border-collapse:collapse;" class=leyenda border=0> <tr> <td> <h3> Resumen última semana </h3> </td> </tr> </table> 
+
+
+<table style="border-collapse:collapse;" class=center border=1>
+<thead>
+<tr>
+  <th id="tableHTML_header_1"> </th>
+  <th id="tableHTML_header_2">Jue</th>
+  <th id="tableHTML_header_3">Vie</th>
+  <th id="tableHTML_header_4">Sáb</th>
+  <th id="tableHTML_header_5">Dom</th>
+  <th id="tableHTML_header_6">Lun</th>
+  <th id="tableHTML_header_7">Mar</th>
+  <th id="tableHTML_header_8">Mié</th>
+</tr>
+</thead>
+<tbody>
+<tr style="background-color:#f2f2f2;">
+  <td id="tableHTML_rownames">Fecha</td>
+  <td id="tableHTML_column_1">2020-04-09</td>
+  <td id="tableHTML_column_2">2020-04-10</td>
+  <td id="tableHTML_column_3">2020-04-11</td>
+  <td id="tableHTML_column_4">2020-04-12</td>
+  <td id="tableHTML_column_5">2020-04-13</td>
+  <td id="tableHTML_column_6">2020-04-14</td>
+  <td id="tableHTML_column_7">2020-04-15</td>
+</tr>
+<tr style="background-color:#e6f0ff;">
+  <td id="tableHTML_rownames">Acumulado</td>
+  <td id="tableHTML_column_1">30</td>
+  <td id="tableHTML_column_2">42</td>
+  <td id="tableHTML_column_3">49</td>
+  <td id="tableHTML_column_4">56</td>
+  <td id="tableHTML_column_5">62</td>
+  <td id="tableHTML_column_6">66</td>
+  <td id="tableHTML_column_7">67</td>
+</tr>
+<tr style="background-color:#f2f2f2;">
+  <td id="tableHTML_rownames">Nuevos casos</td>
+  <td id="tableHTML_column_1">1</td>
+  <td id="tableHTML_column_2">12</td>
+  <td id="tableHTML_column_3">7</td>
+  <td id="tableHTML_column_4">7</td>
+  <td id="tableHTML_column_5">6</td>
+  <td id="tableHTML_column_6">4</td>
+  <td id="tableHTML_column_7">1</td>
+</tr>
+</tbody>
+</table>
+<table style="border-collapse:collapse;" class=leyenda border=0> <tr> <td>
+<h3> Leyenda </h3>
+
+<h4> Acumulado: </h4> <p> Número de casos totales registrados hasta la fecha (linea sólida).</p>
+<h4> Nuevos casos: </h4> <p>  Número de casos registrados cada día (barras de color).</p>
+<h4> MM 14 días: </h4> <p>  Promedio de casos diarios registrados los últimos 14 días (barras oscuras). Ofrece una mejor visión de la tendencia del registro diario de casos.</p>
+</td> </tr> </table>
 </body></html>
